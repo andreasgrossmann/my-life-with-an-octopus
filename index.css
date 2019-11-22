@@ -1,54 +1,82 @@
 html {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Patrick Hand SC', cursive;
-    text-align: center;
-    text-transform: uppercase;
-    background-color: #FFCB04;;
-    padding: 0;
-    margin: 0;
+  font-family: "Patrick Hand SC", cursive;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #ffcb04;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
-    font-size: 5rem;
-    line-height: 1;
-    margin: 2rem 0 2rem;
+  font-size: 5rem;
+  line-height: 1;
+  margin: 2rem auto 2rem;
 }
 
 h2 {
-    font-size: 3rem;
-    line-height: 1;
-    max-width: 60%;
-    margin: 0 auto;
+  font-size: 3rem;
+  line-height: 1;
+  max-width: 60%;
+  margin: 0 auto;
 }
 
 .content {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .episode {
-    width: 100%;
-    padding: 4rem 0;
+  width: 100%;
+  padding: 4rem 0;
 }
 
 object {
-    width: 50%;
-    margin: 4rem auto 0;
+  width: 50%;
+  margin: 4rem auto 0;
 }
 
 @media screen and (max-width: 600px) {
-    h1, h2 {
-        max-width: 90%;
-    }
-    object {
-        width: 80%;
-        margin: 3rem auto 0;
-    }
-    .episode {
-        padding: 1rem 0;
-    }
+  h1,
+  h2 {
+    max-width: 90%;
+  }
+  object {
+    width: 80%;
+    margin: 3rem auto 0;
+  }
+  .episode {
+    padding: 1rem 0;
+  }
+}
+
+.footer {
+  width: 60%;
+  margin: 3rem auto;
+  font-size: 1rem;
+  line-height: 1.4;
+  text-align: center;
+  color: black;
+}
+
+.footer a {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    width: 100%;
+    margin: 6rem auto;
+  }
 }
